@@ -1,8 +1,8 @@
 # ShopifyPlayStation
 
-This was a codeacademy project called jammming.  I had to build a react app that connects to Spotify's API and allows a user to create a playlist.  I also changed a few things; such as: changing the name, changing the design to be my own site, and privatizing my Spotify client id with nodenv.  
+This was a CodeAcademy project called jammming.  I had to build a react app that connects to Spotify's API and allows a user to create a playlist.  I also changed a few things; such as: changing the name, changing the design to be my own site, and privatizing my Spotify client id with nodenv.  
 
-The site is not currently deployed as it runs on the npm surge server.  If you would like to run it yourself you will need to copy the repository and follow the directions listed below.
+The site is not currently deployed as it runs on my node server.  If you would like to run it yourself you will need to copy the repository, paste it in a directory on your computer, and follow the directions listed below.
 
 ## Product Features
 
@@ -20,6 +20,8 @@ The site is not currently deployed as it runs on the npm surge server.  If you w
 * Preview track samples before adding to playlist
 * Adding album and playlist artwork
 
+## Lisense
+MIT
 
 
 
@@ -38,13 +40,10 @@ Paste the client id in the variable on line 4 so it looks like this
 Back on your spotify for developers site you must click on the app you created, click the **edit settings** button.  Go down to redirect URIs and add the following link **http://localhost:3000**
 **Make Sure You Press Save**
 
-**You will need to copy this link http://localhost:3000 and paste it over the link in Spotify.js which can be found in src/util, on line 6**
+You will need to copy this link **http://localhost:3000** and paste it over the link in Spotify.js which can be found in **src/util, on line 6**
 
 Assuming you have already created a directory where you pasted all the code for this app, followed the steps above, and... have npm installed... you should be able to open your command shell and type npm start.  Hit enter and the app will launch on your browser.
 
-
-## Lisense
-MIT Lisense
 
 
 ## Running The Project On NPM
