@@ -1,6 +1,6 @@
 # ShopifyPlayStation
 
-This was a CodeAcademy project called jammming.  I had to build a react app that connects to Spotify's API and allows a user to create a playlist.  I also changed a few things; such as: changing the name, changing the design to be my own site, and privatizing my Spotify client id with nodenv.  
+This was a CodeAcademy project called jammming.  I had to build a react app that connects to Spotify's API and allows a user to create a playlist.  I also changed a few things; such as: rendering in React18, changing the name, changing the design to be my own site, and privatizing my Spotify client id with nodenv.  
 
 The site is not currently deployed as it runs on my node server.  If you would like to run it yourself you will need to copy the repository, paste it in a directory on your computer, and follow the directions listed below.
 
